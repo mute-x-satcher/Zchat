@@ -109,7 +109,8 @@ nav div{
     margin: 2px;
 }
 
-.box {
+
+.box{
     position: relative;
     height:  400px;
     width: 600px;
@@ -117,31 +118,12 @@ nav div{
     margin: auto;
     gap: 15px;
     background: linear-gradient(0deg, black, #444444);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 5px solid green;
+}
+  .box::-webkit-scrollbar
+  {
+    display: none;
   }
   
-  .glowing::before{
-    content: '';
-    position: absolute;
-    left: -2px;
-    top: -2px;
-    background: linear-gradient(45deg, #e8f74d, #ff6600d9, #00ff66, #13ff13, #ad27ad, #bd2681, #6512b9, #ff3300de, #5aabde);
-    background-size: 400%;
-    width: calc(100% + 5px);
-    height: calc(100% + 5px);
-    z-index: -1;
-    animation: glower 20s linear infinite;
-  }
-  
-  @keyframes glower {
-    0% {
-      background-position: 0 0;
-    }
-    
-    50% {
-      background-position: 400% 0;
-    }
-    
-    100% {
-      background-position: 0 0;
-    }
-  }
