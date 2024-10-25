@@ -1,7 +1,7 @@
 const io = require('socket.io')(7620,{
     cors:
     {
-       origin: ['http://127.0.0.1:5500'] 
+       origin: ['https://zchat-new.onrender.com/'] 
     }
 });
     const users = {};  
