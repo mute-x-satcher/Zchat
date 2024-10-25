@@ -1,4 +1,4 @@
-const socket = io('http://localhost:7620');
+const socket = io('https://zchat-m4e4.onrender.com');
 
 
 const form = document.getElementById('send-container');
