@@ -130,7 +130,7 @@ nav div{
  @media(max-width:570px) 
  {
   .box
-  { position: fixed;
+  { 
     height: 80vh; 
     width: 95vw;
   }  
