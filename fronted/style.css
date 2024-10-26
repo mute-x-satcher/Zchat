@@ -126,4 +126,22 @@ nav div{
   {
     display: none;
   }
+
+ @media(max-width:570px) 
+ {
+  .box
+  { 
+    height: 80vh; 
+    width: 95vw;
+  }  
+  .send input
+  {
+    width: 70vw;
+
+  }
+  .send .btn
+  {
+    width: 20vw;
+  }
+ } 
   
