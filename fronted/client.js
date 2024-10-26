@@ -47,7 +47,7 @@ socket.on('receive', data =>
     append(`${data.name}: ${data.message} `, 'lme','me');
 })
 socket.on('leave', user =>
-{   if(user != null)
+{   if(user != null && user != undefined)
     {
     append(`${user} left the chat`,'rme','dme');
     }
